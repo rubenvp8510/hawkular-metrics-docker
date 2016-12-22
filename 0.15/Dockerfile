@@ -40,7 +40,7 @@ EXPOSE 8080
 
 # Get and copy the hawkular metrics war to the deployment directory
 RUN cd $JBOSS_HOME/standalone/deployments/ && \
-    curl -Lo hawkular-metrics.ear http://origin-repository.jboss.org/nexus/content/repositories/public/org/hawkular/metrics/hawkular-metrics-standalone-dist/${HAWKULAR_METRICS_VERSION}/hawkular-metrics-standalone-dist-${HAWKULAR_METRICS_VERSION}.ear
+    curl -LO https://github.com/hawkular/hawkular-metrics/releases/download/0.15.0/hawkular-metrics-api-jaxrs-0.15.0.Final.war
 
 #COPY standalone.conf \
 #     $JBOSS_HOME/bin/
