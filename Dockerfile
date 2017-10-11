@@ -28,7 +28,7 @@ MAINTAINER Hawkular Metrics <hawkular-dev@lists.jboss.org>
 #
 ENV HAWKULAR_METRICS_ENDPOINT_PORT="8080" \
     CASSANDRA_NODES="hawkular-cassandra" \
-    HAWKULAR_METRICS_VERSION="0.15.0.Final" \
+    HAWKULAR_METRICS_VERSION="0.28.2.Final" \
     HAWKULAR_METRICS_DIRECTORY="/opt/hawkular" \
     HAWKULAR_METRICS_SCRIPT_DIRECTORY="/opt/hawkular/scripts/" \
     PATH=$PATH:$HAWKULAR_METRICS_SCRIPT_DIRECTORY \
